@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio</title>
+
+  <link rel="stylesheet" href="portifolio.css">
+  <script src="https://kit.fontawesome.com/bdad4f6152.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7j3z2l1e4c5e5f5e5f5e5f5e5f5e5f5e5" crossorigin="anonymous">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.jpg" alt="logo " class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Records</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>A  FULL STACK DEVELOPER</p>
+        <h1>Hi, I'm <span>Leonce</span>  <br> Native RWANDAN</h1>
+        
+      </div>
+    </div> 
+  </div>
+  <!--------------about------------------>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/profile01.jpg" alt="User">
+          
+        </div>
+        <div class="about-col-2 ">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hi, I'm <span>Leonce,</span> <br>
+            A visionary in modern digital transformation. With a passion for innovation, I assists, renews, Manages and develops cutting-edge systems tailored for efficiency and growth. <br>
+            My expertise spans IT optimization, Strategic problem-solving, and user-centric design. <br><br>
+            Whether shaping seamless digital experiences or pioneering advanced technology frameworks, <br>
+            We turns challenges into streamlined success. Smart, adaptable, and forward-thinking,<br>
+            <span> We doesn't just embrace the future,We builds it.</span>
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Premier Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Other skills</p>
+            <p class="tab-links" onclick="opentab('education')">Why To Choose Me</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li> <span>Data Managnent</span> <br>Designing, keeping and implementing Data base</li>
+              <li> <span>Web Development</span> <br>Web/App Development</li>
+              <li> <span>App Development</span> <br>Building Android/ios apps</li>
+            </ul>
+          </div> 
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li> <span>Mentoring</span> <br> Facilitating others to acquire relevant skills</li>
+              <li> <span>Managing</span> <br>Leading others to disered goal with the same team spirit</li>
+              <li> <span>Learning</span> <br>Ability to adopt new skills fast and implement them.</li>
+            </ul>
+          </div> 
+          <div class="tab-contents" id="education"> 
+            <ul>
+              <li> <span>Super Services</span> <br>We provide high-quality service, tailored to yuor needs.</li>
+              <li> <span>Cost Effective</span> <br>My services are affordable and offer a significant return on investiment.</li>
+              <li> <span>Time Saving</span> <br>Not only time but also Financial Saving. we help you optimize well.</li>
+            </ul>
+          </div> 
+        </div>
+      
+    </div>
+  </div>
+
+<!----------------services-------------------->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>A well-designed website is more than just an online presence.
+            It's a powerful marketing tool that builds credibility, 
+            enhances engagement, and drives conversions. <span>Time to Get Yours</span></p>
+          <a href="#contact">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Data Base Design</h2>
+          <p>A well-structured database empowers businesses with 
+            reliable data storage, quick retrieval, and seamless interaction
+             with applications.<span>Time to Get Yours</span></p>
+          <a href="#contact">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>With mobile usage growing daily, businesses growing daily, businesses and brands must 
+             prioritize sleek, user-friendly applications prioritize sleek, user-friendly
+             applications to stay competitive to stay competitive.
+          <span>Time to Get Yours</span></p>
+          <a href="#contact">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-----------------portfolio-------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/realEstate.png" alt="">
+        <div class="layer">
+          <h3>Real Estate App</h3>
+          <p>Real as the name reveals. 
+            This is a real estate app that helps you to find your dream house, 
+            apartment or any other property you want to buy or rent. 
+            All with high responsiveness for both users, either Owner or Client.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/shoping.png" alt="">
+        <div class="layer">
+          <h3>Online Shoping App</h3>
+          <p>In the world of  rapidly growing digitalization, This is an online shoping
+             portal with all requirements neede for both buyer and seller. 
+             As it has an inventory management system within for sellers and smooth
+              responsiveness for buyers.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/gaming.png" alt="">
+        <div class="layer">
+          <h3>Gaming  App</h3>
+          <p>This a classic child's and adult's player that can be played <br>
+          for refreshments and other pre-agreed terms between players. <br>
+          With us many activities can be automated, Hence greater success!  </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+<!-------------------------------contact------------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><a href="mailto:mleonce99@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>Email Us</a></p>
+        <p><a href="tel:+250790681006" target="_blank"><i class="fa-solid fa-phone-volume"></i>Call Now</a></p>
+        <p><a href="https://wa.me/0790681006" target="_blank"><i class="fa-brands fa-whatsapp"></i>Chat on WhatsApp</a></p>
+        
+        <div class="social-icons">
+          <a href="https://facebook.com/Mercileonce" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+          <a href="https://twitter.com/semper_leonce" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://instagram.com/leoncesemper" target="_blank"><i class="fa-brands fa-instagram "></i></a>
+          <a href="https://linkedin.com/in/semper-leonce" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+        </div>
+        <a href="images/logo.jpg" download="" class="btn btn2">Download CV</a>
+      </div>
+
+      
+      <div class="contact-right">
+        <h2 class="Message"> Message Us</h2>
+        <form name="submit-to-google-sheet">
+          <input type="text"  name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Send Message</button>
+        </form>
+        <p id="msg"></p>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <span class="copyright-text">
+        Copyright &copy; Leonce <i class="fa-solid fa-trophy"></i>. All rights reserved.
+    </span>
+</div>
+
+</div>
+<!----------THANKS------------------------>
+<div class="thanks">
+  <h1>Thank You For Visiting My Portfolio</h1>
+  <p>Feel free to reach out for any inquiries or collaborations.</p>
+  <a href="#contact" class="merci">Contact Me</a>
+</div>
+
+
+
+<script src="portifolio.js"></script>
+</body>
+</html>
