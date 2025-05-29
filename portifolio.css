@@ -77,7 +77,7 @@ nav ul li a:hover::after{
 }
 /*----------------about-----------------*/
 #about{
-padding: 80px 0;
+padding: 60px 0;
 color: #ababab;
 }
 .row{
@@ -208,7 +208,7 @@ color: #ababab;
 
 /*-----------------Portfolio------------------*/
 #portfolio{
-  padding: 50px 0;
+  padding: 35px 0;
 }
 .work-list{
   display: grid;
